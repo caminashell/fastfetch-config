@@ -57,7 +57,9 @@ Run `fastfetch` within your terminal.
 - Window manager theme
 - Desktop environment theme
 - Desktop icons theme
+- OpenGL version
 - Vulkan version
+- Locale
 
 ### Hardware
 
