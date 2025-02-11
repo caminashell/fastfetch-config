@@ -89,3 +89,9 @@ Run `fastfetch` within your terminal.
 
 - OS logo right-aligned
 - Terminal colours at foot
+
+> [!TIP]
+> Add the following alias to your `.bashrc` or `.zshrc` file as a quick-key shortcut.
+> ```sh
+> alias ff="fastfetch"
+> ```
