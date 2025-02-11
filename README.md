@@ -25,7 +25,7 @@ If you do not have this folder, create it:
 
 ```sh
 $ cd ~
-$ mkdir -p ./config/fastfetch
+$ mkdir -p ~/.config/fastfetch
 ```
 
 Create the file with your editor (Nano, Vim, etc.), or create the file in the command line:
