@@ -24,7 +24,6 @@ To use this configuration, install the `config.jsonc` file to `~/.config/fastfet
 If you do not have this folder, create it:
 
 ```sh
-$ cd ~
 $ mkdir -p ~/.config/fastfetch
 ```
 
