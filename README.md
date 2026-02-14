@@ -71,6 +71,7 @@ Run `fastfetch` within your terminal.
 - Disk information
   - Showing `btrfs` module.
   - Replace `btrfs` module with `disk` or `physicaldisk` if not using BTRFS.
+- Physical Disks
 - Display monitor
 - Screen resolution information
 - Brightness detail _(if applicable)_
@@ -78,6 +79,13 @@ Run `fastfetch` within your terminal.
 - Power detail _(if applicable)_
 - Audio device currently in use
 - Bluetooth devices
+
+### Network (all hidden, visible on selection)
+
+- WiFi 
+- Primary LAN address(es)
+- WAN address(es)
+- DNS address(es)
 
 ### Time Information
 
@@ -87,7 +95,7 @@ Run `fastfetch` within your terminal.
 
 ### Misc.
 
-- OS logo right-aligned
+- logo right-aligned
 - Terminal colours at foot
 
 > [!TIP]
