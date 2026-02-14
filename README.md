@@ -1,6 +1,6 @@
 # Fastfetch Configuration
 
-![Screenshot From 2025-02-11 11-29-14](https://github.com/user-attachments/assets/9e9bb233-6f2a-4685-aba8-24de86854f03)
+![2026-02-14](https://github.com/user-attachments/assets/841fc849-b4ff-47fc-8297-74486d7271ef)
 
 > Fastfetch is a [neofetch](https://github.com/dylanaraps/neofetch)-like tool for fetching system information and displaying it prettily. It is written mainly in C, with performance and customizability in mind. Currently, Linux, Android, FreeBSD, macOS, SunOS and Windows 7+ are supported.
 
