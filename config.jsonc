@@ -36,6 +36,12 @@
       "format": "\u001b[90m╭───────────────────────────────────── Software ──────────────────────────────────────╮",
     },
     {
+      "type": "command",
+      "key": "│ ├ ",
+      "keyColor": "yellow",
+      "text": "hostname | tr '[:lower:]' '[:upper:]'",
+    },
+    {
       "type": "os",
       "key": " OS ",
       "keyColor": "yellow",
