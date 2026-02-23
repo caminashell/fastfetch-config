@@ -166,19 +166,16 @@
       "keyColor": "green",
     },
     {
-      "type": "btrfs",
-      "key": "╰ ╰ ",
+      "type": "physicaldisk",
+      "key": "│ ├ ",
       "keyColor": "green",
+      "format": "{dev-path} - {name} ({size}) [{removable-type} {interconnect} {physical-type}]",
     },
     {
       "type": "disk",
       "key": "│ ├ ",
       "keyColor": "green",
-    },
-    {
-      "type": "physicaldisk",
-      "key": "│ ├ ",
-      "keyColor": "green",
+      "format": "{mountpoint} - '{name}' {size-used} / {size-available} ~ {size-free} / {size-total} ({size-percentage}) [{filesystem}]",
     },
     {
       "type": "display",
@@ -225,7 +222,22 @@
     "break",
     {
       "type": "custom",
-      "format": "\u001b[90m╭─────────────────────────────────── Networking ───────────────────────────────────────╮",
+      "format": "\u001b[90m╭─────────────────────────────────────── BTR-FS ───────────────────────────────────────╮",
+    },
+    {
+      "type": "btrfs",
+      "key": "╰ ╰ ",
+      "keyColor": "green",
+      "format": "[{devices}] {name}: {used-percentage} ({used} used) {allocated-percentage} ({allocated} allocated) / {total}"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m╰──────────────────────────────────────────────────────────────────────────────────────╯",
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[90m╭───────────────────────────────────── Networking ─────────────────────────────────────╮",
     },
     {
       "type": "wifi",
